@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # print("########## 2.1.1 ##########")
 word = input("Please type in a word: ")
 if len(word) > 1:
@@ -22,9 +21,9 @@ n1 = int(input("Please type in the first number: "))
 n2 = int(input("Please type in the second number: "))
 if n1 > n2:
     print("The greater number was:", n1)
-if n1 < n2:
+elif n1 < n2:
     print("The greater number was:", n2)
-if n1 == n2:
+else:
     print("The numbers are equal!")
 
 #print("########## 2.1.5 ##########")
@@ -36,10 +35,9 @@ name2 = input("Name: ")
 age2 = int(input("Age: "))
 if age1 > age2:
     print("The elder is", name1 )
+elif age2 > age1:
+    print("The elder is", name2)
 else:
-    if  age2 > age1:
-        print("The elder is", name2)
-if age1 == age2:
     print(name1, "and", name2, "are the same age")
 
 #print("########## 2.1.6 ##########")
@@ -47,20 +45,7 @@ word1 = input("Please type in the 1st word: ")
 word2 = input("Please type in the 2nd word: ")
 if word1 > word2:
     print(word1, "comes alphabetically last.")
-if word2 > word1:
+elif word2 > word1:
     print(word2, "comes alphabetically last.")
-if word1 == word2:
+else:
     print("You gave the same word twice.")
-=======
-# print("########## 2.2.1 ##########")
-
-# print("########## 2.2.2 ##########")
-
-# print("########## 2.2.3 ##########")
-
-# print("########## 2.2.4 ##########")
-
-# print("########## 2.2.5 ##########")
-
-# print("########## 2.2.6 ##########")
->>>>>>> ed69335c68271aedf58261acbb53bcb1bf86fca6
