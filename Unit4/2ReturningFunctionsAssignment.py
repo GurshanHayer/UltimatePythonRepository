@@ -1,3 +1,4 @@
+# ========== 4.2.1 ==========
 def greatest_number(n1, n2, n3):
     if n1 >= n2 and n1 >= n3:
         return n1
@@ -11,7 +12,7 @@ print(greatest_number(99, -4, 7)) # 99
 print(greatest_number(0, 0, 0)) # 0
 
 
-
+# ========== 4.2.2 ==========
 def same_chars(stri, n1, n2):
     if n2 < (len(stri)-1) and n1 < (len(stri)-1):
         if str(stri)[n1] == str(stri)[n2]:
@@ -28,8 +29,7 @@ print(same_chars("programmer", 0, 4)) # False
 # the second index is not within the string
 print(same_chars("programmer", 0, 12)) # False
 
-x = 0
-
+# ========== 4.2.3 ==========
 def first_word(string):
     space = " "
     if space in string:
